@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    width: 50vw;
+    background-color: skyblue;
+    font-size: 2rem;    
+    color: black;
+}
+
+/* top, right, bottom, left */
+
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: papayawhip;
+    color: darkblue;
+}
+
+h1{
+    margin: 22px 25px;
+    border: 12px outset red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+    outline: 8px solid blue;
+    outline-offset: -25px;
+}
+
+p{
+    width: 40ch;
+}
+
+.circle{
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    margin: 3rem auto;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+}
+
+/* html{
+    font-size: 22px;
+}
+
+body{
+
+}
+
+main{
+    font-family: monospace;
+}
+
+h1, h2{
+    color: blue;
+}
+
+p{
+    color: purple;
+}
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+    font-weight: 700;
+    color: black;
+    padding: 5px;
+}
+
+.gray{
+    color: gray;
+}
+
+#second{
+    font-style: italic;
+} */

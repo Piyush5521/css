@@ -1,0 +1,12 @@
+
+
+ul{
+    list-style: inside;
+}
+
+ul ::marker{
+    color: red;
+    font-family: fantasy;
+    font-size: 2rem;
+    content: "Only 5$ >> ";
+}
