@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: black;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 100px 200px;
+}
