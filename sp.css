@@ -1,0 +1,100 @@
+@media(max-width:1024px){
+    .main-row {
+        flex-direction: column !important; /* Force column layout for iPads and similar screens */
+    }
+
+    .col {
+        width: 100% !important; /* Ensure the columns take full width in column layout */
+    }
+
+    .col2section {
+        margin-top: 2rem !important;
+    }
+
+    .contact-details {
+        padding-left: 0px;
+        margin: 20px 0px;
+    }
+
+    .contact-col1 {
+        width: 5%;
+    }
+
+    .contact-col2 {
+        width: 100%; /* Take full width in column layout */
+    }
+
+    .firstname,
+    .lastname,
+    .emailField {
+        width: 100% !important;
+    }
+
+    .form-container {
+        width: 97%;
+    }
+
+    .footer {
+        height: 18px;
+    }
+
+    .location-icon {
+        width: 3%;
+    }
+
+    .location-add-text {
+        margin-left: 10px;
+        width: 95%;
+    }
+}
+
+/* iPad-specific breakpoint (portrait mode) */
+@media (max-width: 768px) {
+    .main-row {
+        flex-direction: column !important; /* Ensure column layout */
+    }
+
+    .col {
+        width: 100% !important; /* Ensure full-width layout in column direction */
+    }
+
+    .col2section {
+        margin-top: 2rem;
+    }
+
+    .contact-details {
+        padding-left: 0px;
+        margin: 20px 0px;
+    }
+
+    .contact-col1 {
+        width: 5%;
+    }
+
+    .contact-col2 {
+        width: 100%; /* Full width for the second column */
+    }
+
+    .firstname,
+    .lastname,
+    .emailField {
+        width: 100% !important;
+    }
+
+    .form-container {
+        width: 97%;
+    }
+
+    .footer {
+        height: 18px;
+    }
+
+    .location-icon {
+        width: 3%;
+    }
+
+    .location-add-text {
+        margin-left: 10px;
+        width: 95%;
+    }
+}
